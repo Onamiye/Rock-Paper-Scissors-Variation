@@ -14,7 +14,7 @@ for match in range(matches):
 #there can be multiple plays for each round
 #example: PR SS SR SS 
   
-    rounds = input("Enter guesses for each round:").split()
+    rounds = input("Enter plays for match:").split()
     for round in rounds:
         A,B  = round[0], round[1]
         if A == "P" and B == "R":
