@@ -1,0 +1,23 @@
+#The code simulates the rock-paper-scissors code between two users
+#The players determine the amount of matches they want to play
+#A match can consist of several rounds
+#In each match, players choose either rock, paper or scissor in the order player1_guess, player2_guess - (guess must be space separated and either P,R or S)
+#An example of an input to a match of one round can be : PR   - (in this case, player1 plays Paper and player2 plays Rock)
+#Another input to a match with 3 rounds can be: PR SS SR 
+#The winner of the match is determined by the person with the most round wins.
+#If both players play the same thing (PP, SS,RR), there is no winner for that round.
+#For example, If player1 wins 2 rounds out of 3 rounds in a match, player1 wins the match.
+#The overall winner of the game is determined by who won the most matches. 
+
+#Code input workings and explanation
+#The program prompts for both players names
+#Enter Name1:
+#Enter Name2: 
+#input number of matches : 3
+#match1 : PR SS  (it has 2 rounds)
+#match2 : SS RS  (it has 2 rounds)
+#match3 : PP  (it has 1 round)
+
+#Player1 wins one round in match1, wins another round in match2, match3 ends in a draw
+#The overall winner is Player1 with 2 points. 
+
